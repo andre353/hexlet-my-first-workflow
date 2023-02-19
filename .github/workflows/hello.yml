@@ -6,6 +6,5 @@ jobs:
   greet:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
       - name: Run a Makefile command
         run: make say-hello
